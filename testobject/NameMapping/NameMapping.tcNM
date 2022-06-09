@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2CD2202D-E98B-4F88-BEE2-35F2A29D3713}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{94A512A1-9E0B-4283-B4DB-D38E98678E1D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{B965CBE2-2073-4E75-BE65-47E704E7A3FB}">
+								<Image FileName="2074684718" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLgVisitReservationLg" Key="{7D1550FC-85E6-4F5D-9EDB-8F9C1D3340CF}">
+								<Image FileName="2074684718" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7D8FC400-FDD4-4953-9B58-3CEC4EB44F93}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportaldev.koreabuild.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLoginformchanger" Key="{01385828-ABDC-4923-B900-87FB229B79B6}">
+										<Image FileName="-9360573" Left="481" Top="802" Right="524" Bottom="821" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loginFormChanger" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;로그인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;link-with-margin-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailid" Key="{0775B774-78DF-4925-B766-E552D89DA6E8}">
+										<Image FileName="-1493951403" Left="484" Top="462" Right="884" Bottom="510" />
+										<TypeInfo Item0="{58231A1C-8ACA-4266-9538-D231FB62E49A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#emailId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;emailId&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;formik-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LoginForm&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxChecksaveid" Key="{296926BA-8851-43C8-A5DE-0B0CB70EBE2F}">
+										<Image FileName="1549255632" Left="832" Top="474" Right="849" Bottom="491" />
+										<TypeInfo Item0="{A632D9A1-5A65-4AF4-8AB0-8FB3FD27A267}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;저장&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#checkSaveId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;checkSaveId&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{0CA3FBDA-86E0-4CAE-BF2D-639AFBC5E0A1}">
+										<Image FileName="1676979605" Left="484" Top="560" Right="884" Bottom="608" />
+										<TypeInfo Item0="{58231A1C-8ACA-4266-9538-D231FB62E49A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LoginForm&apos;]//div[2]/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageReservation" Key="{EB96BEAB-EDB0-42C9-8ABF-743E4296EA65}">
+								<Image FileName="2074684718" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7D8FC400-FDD4-4953-9B58-3CEC4EB44F93}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportaldev.koreabuild.com/reservation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button" Key="{ADEDA185-60A3-431A-9B2D-7F2A479C9200}">
+										<Image FileName="869854288" Left="696" Top="671" Right="766" Bottom="711" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;확인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-ok&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;popupNoticeModal&apos;]//div[2]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSettings" Key="{5C899DB7-FFC8-45AA-A1BA-9A073ED95E63}">
+										<Image FileName="-909043212" Left="0" Top="103" Right="1903" Bottom="167" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;settings&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbarTop&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationPage&apos;]//nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSettingicon" Key="{FE6FA0E9-2224-4188-A889-DDFED1AF120F}">
+										<Image FileName="-909043212" Left="1585" Top="115" Right="1609" Bottom="155" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#settingIcon" />
+											</Selector>
+											<Selector>
+												<Value Value="//i[.=&apos;settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav//a//i[contains(@class, &apos;material-icons&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;workplaceManagement&apos;)]//i" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav//a//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLgVisitReservationLg2" Key="{6C81B552-B282-40A1-AADC-DED7B202C956}">
+								<Image FileName="2074684718" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7D8FC400-FDD4-4953-9B58-3CEC4EB44F93}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportaldev.koreabuild.com/workplaceManagement" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button" Key="{D1E8F3A0-1029-48E0-A524-E343831C9276}">
+										<Image FileName="1024525579" Left="781" Top="554" Right="924" Bottom="594" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;예약신청 현황&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//a/button[contains(@class, &apos;btn_status&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;WorkplaceInfoBox&apos;]//a[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/ul/li//a[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLgVisitReservationLg3" Key="{232C3B60-4867-4622-9DB4-D29E53857D3C}">
+								<Image FileName="2074684718" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7D8FC400-FDD4-4953-9B58-3CEC4EB44F93}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportaldev.koreabuild.com/workplaceManagement/reservationStatus/10001" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonPagedropdown" Key="{0B5CC269-C635-4510-A299-3E10451E4500}">
+										<Image FileName="751996750" Left="397" Top="462" Right="455" Bottom="494" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pageDropDown" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[text()=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//span/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{D9B722BE-CB5A-48AC-B8DE-02DF6659341A}">
+										<Image FileName="587909709" Left="397" Top="488" Right="557" Bottom="698" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@aria-labelledby=(//button[text()=&apos;10&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link100" Key="{0F51912A-FE93-4F2E-8F46-F5434F625F0A}">
+										<Image FileName="587909709" Left="422" Top="661" Right="532" Bottom="685" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;100&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="tableNo" Key="{04C8A37E-40D0-4F5D-A9A6-2FB6809A588B}">
+										<Image FileName="-1505121116" Left="405" Top="-394" Right="1515" Bottom="1553" />
+										<TypeInfo Item0="{2506676E-6878-4648-BEF2-70B3E5A96D3C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//table[contains(., &apos;NO&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[contains(@class, &apos;table&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//table" />
+											</Selector>
+											<Selector>
+												<Value Value="//table" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{560F2FA0-5EF3-4308-9423-950FB9FA1C33}">
+										<Image FileName="1710020174" Left="573" Top="298" Right="744" Bottom="366" />
+										<TypeInfo Item0="{54F97487-DF62-44C1-A311-1C447D9A9069}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;이*국/(주)LG&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLg" Key="{8B239EB1-1910-43DC-A9AF-01CD7C59716E}">
+										<Image FileName="-266829545" Left="585" Top="611" Right="732" Bottom="632" />
+										<TypeInfo Item0="{2844B98E-189E-4223-B652-3A97649C599D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;이*국/(주)LG&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td[3]/div[contains(@class, &apos;small-font&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//td/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{D856DA8C-03D0-47AE-9AD7-376B0B14410E}">
+										<Image FileName="-172912558" Left="1077" Top="613" Right="1130" Bottom="632" />
+										<TypeInfo Item0="{2844B98E-189E-4223-B652-3A97649C599D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;대리신청&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/span[contains(@class, &apos;substituteYes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//td[4]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{B19029ED-8CC2-48A5-824E-31E82A30B45E}">
+										<Image FileName="1775415098" Left="1077" Top="1078" Right="1130" Bottom="1097" />
+										<TypeInfo Item0="{2844B98E-189E-4223-B652-3A97649C599D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[7]/td/span[contains(@class, &apos;substituteYes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//tr[7]/td[4]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{C0C39CFE-C2AC-4ED4-BE62-990E6ADE5264}">
+										<Image FileName="532762131" Left="1077" Top="747" Right="1130" Bottom="766" />
+										<TypeInfo Item0="{2844B98E-189E-4223-B652-3A97649C599D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;본인신청&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/span[contains(@class, &apos;substituteNo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//tr[3]/td[4]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td[4]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDropdownToggleSubstituteye" Key="{4EC374DB-7CBE-4750-B580-754ED6B26474}">
+										<Image FileName="2051365435" Left="1035" Top="353" Right="1170" Bottom="385" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dropdown-toggle-substituteYesorno" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;신청 유형&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//div[3]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApplyTypeSub" Key="{378D443C-EB88-475F-9232-B65A2F4C1E66}">
+										<Image FileName="-80840662" Left="1036" Top="428" Right="1194" Bottom="460" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#apply-type-SUB" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;대리신청&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearchreservationstatusbut" Key="{2CD967C3-89DC-4F13-9C6C-2550DF33708A}">
+										<Image FileName="171274909" Left="1779" Top="353" Right="1858" Bottom="385" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#searchReservationStatusButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;searchReservationStatusButton&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ReservationStatusPage&apos;]//form/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSinglexProcurement" Key="{72C837D8-E438-409D-BCCF-DA60256A0433}">
+								<Image FileName="-919694193" Left="0" Top="103" Right="1730" Bottom="913" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://procurement-qa-lgc.singlex.com/buyer/portal.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{CD53F5BD-57D0-49EA-8339-73827CD0667B}">
+										<Image FileName="-919694193" Left="0" Top="158" Right="245" Bottom="913" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;구매기준정보&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;nav--my&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRisk" Key="{C492CA02-0F49-4E51-87FB-C563FAEFFB76}">
+										<Image FileName="-919694193" Left="0" Top="304" Right="233" Bottom="348" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Risk 관리&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRisk" Key="{68F3AB72-D154-48EC-846F-94F1373F73C6}">
+										<Image FileName="-919694193" Left="45" Top="304" Right="233" Bottom="348" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Risk 관리&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Risk 관리&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/div[2]/li[3]//button[contains(@class, &apos;o-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;l-side&apos;]//ul/div[2]/li[3]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/div[2]/li[3]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMonitoring" Key="{E3C84192-A551-4AEC-B383-3CBB9341E75B}">
+										<Image FileName="1249190414" Left="47" Top="250" Right="245" Bottom="338" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;nav-sub-group__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;l-side&apos;]//div[3]/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRisk2" Key="{4BB10CF4-ABC4-4D2E-A340-BC0454893C05}">
+										<Image FileName="1249190414" Left="47" Top="294" Right="245" Bottom="338" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;재무 Risk&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonRisk2" Key="{D9D08CCF-5C42-418C-BDCD-6A34B4EC68A3}">
+										<Image FileName="1249190414" Left="47" Top="294" Right="245" Bottom="338" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;재무 Risk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;재무 Risk&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/div[3]//ul/li[2]/button[contains(@class, &apos;o-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;l-side&apos;]//li[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/div[3]//ul/li[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRm" Key="{CACBEE5F-4579-400D-9109-7C27395CB7ED}">
+										<Image FileName="-1934864786" Left="47" Top="490" Right="233" Bottom="528" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[2]/ul/li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRm" Key="{70C274D1-BF57-4F70-A09A-B79E104A77CD}">
+										<Image FileName="-1934864786" Left="47" Top="490" Right="233" Bottom="528" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;RM대상협력사관리&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;RM대상협력사관리&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div/a[contains(@class, &apos;level3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;l-side&apos;]//li[5]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerXmlview1PageHeader" Key="{FBC2F9BF-F112-440C-B726-46E77BB49860}">
+										<Image FileName="282918132" Left="245" Top="158" Right="1730" Bottom="396" />
+										<Selectors>
+											<Selector>
+												<Value Value="#__xmlview1--page-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;협력사유형:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;sapContrastPlus&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@id=&apos;__xmlview1--page&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonXmlview1Pagesearchbutton" Key="{8C2A6C3F-5B89-4D90-A2BB-702BF22F052D}">
+										<Image FileName="282918132" Left="1640" Top="347" Right="1682" Bottom="379" />
+										<TypeInfo Item0="{14D3E0CC-27E2-421C-B883-801674670710}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//span[.=&apos;강조&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;조회&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;__component0---__uicomponent0-container&apos;]//article/header//div[2]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNaver" Key="{7FCF0FF2-D4B4-4B24-975D-CF7A7F5CCEF2}">
+								<Image FileName="1849001040" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.naver.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSform" Key="{7DE33424-E0F4-455C-98B9-C033115B0B05}">
+										<Image FileName="-1443300760" Left="625" Top="204" Right="1211" Bottom="260" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sform" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;sform&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;검색&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetUndefined" Key="{F73ACFAA-D175-42DE-AAE1-B586C9B5E117}">
+										<Image FileName="-1443300760" Left="625" Top="204" Right="1211" Bottom="260" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;검색&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;sform&apos;]/fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQuery" Key="{87F5DD10-AA61-442B-B783-21569275CEC6}">
+										<Image FileName="-1443300760" Left="628" Top="207" Right="1102" Bottom="257" />
+										<TypeInfo Item0="{58231A1C-8ACA-4266-9538-D231FB62E49A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#query" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;query&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;검색어 입력&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input_text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;sform&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A8033334-E5CA-469B-9F8B-9DC6ED0660BC}">
+										<Image FileName="633038340" Left="295" Top="160" Right="1525" Bottom="320" />
+										<TypeInfo Item0="{2844B98E-189E-4223-B652-3A97649C599D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;logo_special&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{BDB88F59-273F-4EEA-B182-53C316A08093}">
+										<Image FileName="633038340" Left="390" Top="160" Right="633" Bottom="320" />
+										<TypeInfo Item0="{FF2963CE-562D-4335-91E7-A2523735F225}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;special_logo_link&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{E6C9DDD6-1EE7-432A-98A7-56434A0A5363}">
+								<Image FileName="1849001040" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{7D8FC400-FDD4-4953-9B58-3CEC4EB44F93}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://search.naver.com/search.naver*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="section" Key="{3F967E61-2843-4D04-8118-3A89C4D22CBD}">
+										<Image FileName="-161751536" Left="392" Top="142" Right="1064" Bottom="1023" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;뉴스&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;sp_nnews&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{FA77B9B6-D1CF-42E4-A6E6-8970D92CEFB1}">
+										<Image FileName="-161751536" Left="393" Top="192" Right="1063" Bottom="902" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;문서 저장하기&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list_news&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[3]/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSpNwsAll6" Key="{62E5BBF2-77A0-4725-9FAA-EB9F9766E5F6}">
+										<Image FileName="-161751536" Left="393" Top="547" Right="1063" Bottom="747" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sp_nws_all6" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;가 주관사 선정 작업에 돌입하며 코스피 상장을 위한 첫 발걸음을 뗐다. 4일 투자은행(IB)업계에 따르면&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLgCns" Key="{542A3E1B-798C-4703-8879-A2FFC25889F6}">
+										<Image FileName="-161751536" Left="413" Top="586" Right="881" Bottom="611" />
+										<TypeInfo Item0="{F869B780-2CD8-441B-AAAF-485B099BA0C8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;, 상장 본격화…주관사 선정 작업 착수&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;LG CNS, 상장 본격화…주관사 선정 작업 착수&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//ul/li[@id=&apos;sp_nws_all6&apos;]//a[contains(@class, &apos;news_tit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main_pack&apos;]//li[@id=&apos;sp_nws_all6&apos;]/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul/li[@id=&apos;sp_nws_all6&apos;]/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{94A512A1-9E0B-4283-B4DB-D38E98678E1D}">
+			<Child Name="BrowserWindow" Owner="{B965CBE2-2073-4E75-BE65-47E704E7A3FB}" />
+			<Child Name="pageLgVisitReservationLg" Owner="{7D1550FC-85E6-4F5D-9EDB-8F9C1D3340CF}">
+				<Child Name="linkLoginformchanger" Owner="{01385828-ABDC-4923-B900-87FB229B79B6}" />
+				<Child Name="textboxEmailid" Owner="{0775B774-78DF-4925-B766-E552D89DA6E8}" />
+				<Child Name="checkboxChecksaveid" Owner="{296926BA-8851-43C8-A5DE-0B0CB70EBE2F}" />
+				<Child Name="passwordboxPassword" Owner="{0CA3FBDA-86E0-4CAE-BF2D-639AFBC5E0A1}" />
+			</Child>
+			<Child Name="pageReservation" Owner="{EB96BEAB-EDB0-42C9-8ABF-743E4296EA65}">
+				<Child Name="button" Owner="{ADEDA185-60A3-431A-9B2D-7F2A479C9200}" />
+				<Child Name="navSettings" Owner="{5C899DB7-FFC8-45AA-A1BA-9A073ED95E63}">
+					<Child Name="textnodeSettingicon" Owner="{FE6FA0E9-2224-4188-A889-DDFED1AF120F}" />
+				</Child>
+			</Child>
+			<Child Name="pageLgVisitReservationLg2" Owner="{6C81B552-B282-40A1-AADC-DED7B202C956}">
+				<Child Name="button" Owner="{D1E8F3A0-1029-48E0-A524-E343831C9276}" />
+			</Child>
+			<Child Name="pageLgVisitReservationLg3" Owner="{232C3B60-4867-4622-9DB4-D29E53857D3C}">
+				<Child Name="buttonPagedropdown" Owner="{0B5CC269-C635-4510-A299-3E10451E4500}">
+					<Child Name="textnode10" Owner="{D9B722BE-CB5A-48AC-B8DE-02DF6659341A}">
+						<Child Name="link100" Owner="{0F51912A-FE93-4F2E-8F46-F5434F625F0A}" />
+					</Child>
+				</Child>
+				<Child Name="tableNo" Owner="{04C8A37E-40D0-4F5D-A9A6-2FB6809A588B}" />
+				<Child Name="cell" Owner="{560F2FA0-5EF3-4308-9423-950FB9FA1C33}" />
+				<Child Name="panelLg" Owner="{8B239EB1-1910-43DC-A9AF-01CD7C59716E}" />
+				<Child Name="textnode" Owner="{D856DA8C-03D0-47AE-9AD7-376B0B14410E}" />
+				<Child Name="textnode2" Owner="{B19029ED-8CC2-48A5-824E-31E82A30B45E}" />
+				<Child Name="textnode4" Owner="{C0C39CFE-C2AC-4ED4-BE62-990E6ADE5264}" />
+				<Child Name="buttonDropdownToggleSubstituteye" Owner="{4EC374DB-7CBE-4750-B580-754ED6B26474}">
+					<Child Name="linkApplyTypeSub" Owner="{378D443C-EB88-475F-9232-B65A2F4C1E66}" />
+				</Child>
+				<Child Name="buttonSearchreservationstatusbut" Owner="{2CD967C3-89DC-4F13-9C6C-2550DF33708A}" />
+			</Child>
+			<Child Name="pageSinglexProcurement" Owner="{72C837D8-E438-409D-BCCF-DA60256A0433}">
+				<Child Name="textnode" Owner="{CD53F5BD-57D0-49EA-8339-73827CD0667B}">
+					<Child Name="textnodeRisk" Owner="{C492CA02-0F49-4E51-87FB-C563FAEFFB76}">
+						<Child Name="buttonRisk" Owner="{68F3AB72-D154-48EC-846F-94F1373F73C6}" />
+					</Child>
+					<Child Name="textnodeMonitoring" Owner="{E3C84192-A551-4AEC-B383-3CBB9341E75B}">
+						<Child Name="textnodeRisk2" Owner="{4BB10CF4-ABC4-4D2E-A340-BC0454893C05}">
+							<Child Name="buttonRisk2" Owner="{D9D08CCF-5C42-418C-BDCD-6A34B4EC68A3}" />
+						</Child>
+						<Child Name="textnodeRm" Owner="{CACBEE5F-4579-400D-9109-7C27395CB7ED}">
+							<Child Name="linkRm" Owner="{70C274D1-BF57-4F70-A09A-B79E104A77CD}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="headerXmlview1PageHeader" Owner="{FBC2F9BF-F112-440C-B726-46E77BB49860}">
+					<Child Name="buttonXmlview1Pagesearchbutton" Owner="{8C2A6C3F-5B89-4D90-A2BB-702BF22F052D}" />
+				</Child>
+			</Child>
+			<Child Name="pageNaver" Owner="{7FCF0FF2-D4B4-4B24-975D-CF7A7F5CCEF2}">
+				<Child Name="formSform" Owner="{7DE33424-E0F4-455C-98B9-C033115B0B05}">
+					<Child Name="fieldsetUndefined" Owner="{F73ACFAA-D175-42DE-AAE1-B586C9B5E117}">
+						<Child Name="textboxQuery" Owner="{87F5DD10-AA61-442B-B783-21569275CEC6}" />
+					</Child>
+				</Child>
+				<Child Name="textnode" Owner="{A8033334-E5CA-469B-9F8B-9DC6ED0660BC}">
+					<Child Name="link" Owner="{BDB88F59-273F-4EEA-B182-53C316A08093}" />
+				</Child>
+			</Child>
+			<Child Name="pageSearch" Owner="{E6C9DDD6-1EE7-432A-98A7-56434A0A5363}">
+				<Child Name="section" Owner="{3F967E61-2843-4D04-8118-3A89C4D22CBD}">
+					<Child Name="textnode" Owner="{FA77B9B6-D1CF-42E4-A6E6-8970D92CEFB1}">
+						<Child Name="textnodeSpNwsAll6" Owner="{62E5BBF2-77A0-4725-9FAA-EB9F9766E5F6}">
+							<Child Name="linkLgCns" Owner="{542A3E1B-798C-4703-8879-A2FFC25889F6}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

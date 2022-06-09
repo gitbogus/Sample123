@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{60806757-A09A-4E14-9503-9741B783F34D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44690.0162615741" objectName="Aliases.browser.pageSinglexProcurement.FindElement(&quot;//button[contains(text(), &apos;PR/PO관리&apos;)]&quot;)" objectLeft="45" objectTop="612" objectRight="233" objectBottom="656" clickPointX="128" clickPointY="634" imageFileName="tcvi4329581402320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44690.0162731481" objectName="Aliases.browser.pageSinglexProcurement.FindElement(&quot;//button[@title=&apos;PO관리&apos;]&quot;)" objectLeft="47" objectTop="294" objectRight="245" objectBottom="338" clickPointX="181" clickPointY="316" imageFileName="tcvi4329593752321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44690.0162847222" objectName="Aliases.browser.pageSinglexProcurement.FindElement(&quot;//a[contains(text(), &apos;PO변경검토&apos;)]&quot;)" objectLeft="47" objectTop="452" objectRight="245" objectBottom="490" clickPointX="156" clickPointY="457" imageFileName="tcvi4329602652322.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44690.0163657407" objectName="Aliases.browser.pageSinglexProcurement.headerXmlview1PageHeader.buttonXmlview1Pagesearchbutton" objectLeft="1830" objectTop="269" objectRight="1872" objectBottom="301" clickPointX="1848" clickPointY="278" imageFileName="tcvi4329665462323.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
