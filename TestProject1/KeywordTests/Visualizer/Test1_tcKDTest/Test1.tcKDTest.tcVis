@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+<<<<<<< HEAD
 	<data key="{83DDF6AD-A0E0-473D-8D6C-C63EB3F1C02C}" />
+=======
+	<data key="{729AFD67-E873-40EF-8CF2-3AC0F70EAA32}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44722.0915277778" objectName="Aliases.browser.pageNaver.formSform.fieldsetUndefined.textboxQuery" objectLeft="279" objectTop="184" objectRight="753" objectBottom="234" clickPointX="524" clickPointY="203" imageFileName="tcvi122015093893040.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44722.0915393519" objectName="Aliases.browser.pageNaver.formSform.fieldsetUndefined.textboxQuery" objectLeft="279" objectTop="184" objectRight="753" objectBottom="234" clickPointX="7" clickPointY="-11" imageFileName="tcvi122015237593041.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44722.0915856482" objectName="Aliases.browser.pageNaver.formSform.fieldsetUndefined.textboxQuery" objectLeft="279" objectTop="184" objectRight="753" objectBottom="234" clickPointX="7" clickPointY="-11" imageFileName="tcvi1220152375930411.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44722.0916666667" objectName="Aliases.browser.pageSearch.section.link" objectLeft="59" objectTop="285" objectRight="127" objectBottom="306" clickPointX="88" clickPointY="301" imageFileName="tcvi122016351693043.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+>>>>>>> 6d68a3b4c23b3958659fd5751a4fbac15a65d31c
 </Root>
