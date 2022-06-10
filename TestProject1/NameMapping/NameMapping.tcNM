@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{593363E7-A839-4B7B-915F-5876A4431E59}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{10241268-DAE5-4B27-8526-D0136BD89A5C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{81A1EF17-5518-45E3-9CC7-AE2DE777683B}">
+								<Image FileName="-685845161" Left="0" Top="0" Right="716" Bottom="1042" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageNaver" Key="{3B3623D3-85A5-457A-B473-81542FE16B1C}">
+								<Image FileName="-685845161" Left="8" Top="80" Right="708" Bottom="1034" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.naver.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSform" Key="{D9CB4BD9-7DE8-4C03-A8FF-53BAFD39CB6C}">
+										<Image FileName="-685845161" Left="276" Top="181" Right="862" Bottom="237" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sform" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;sform&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;검색&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fieldsetUndefined" Key="{E3CAE77B-5D17-4E60-B033-78032F4C27AD}">
+										<Image FileName="-685845161" Left="276" Top="181" Right="862" Bottom="237" />
+										<Selectors>
+											<Selector>
+												<Value Value="//fieldset[contains(., &apos;검색&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;sform&apos;]/fieldset" />
+											</Selector>
+											<Selector>
+												<Value Value="//fieldset" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQuery" Key="{C01F536F-4C9D-4902-9894-2A9FE39C1AF1}">
+										<Image FileName="-685845161" Left="279" Top="184" Right="753" Bottom="234" />
+										<TypeInfo Item0="{9A10EF67-ADD1-4A1D-AEC8-4CB5F0EB1FE2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#query" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;query&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;검색어 입력&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;input_text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;sform&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSearch" Key="{722B8D4F-918F-4124-809F-6B29AE70D3FB}">
+								<TypeInfo Item0="{ED5C99B1-3F87-4AB5-8D26-FFC6A7308CE0}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://search.naver.com/search.naver*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="section" Key="{4C39BFF3-BA5E-4FD5-B5BD-6499035129E5}">
+										<Image FileName="-1803143948" Left="38" Top="220" Right="710" Bottom="875" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;지식백과&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;sp_nkindic&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{29A42373-CBDF-44B0-9A91-E2A8C789467C}">
+										<Image FileName="-1803143948" Left="59" Top="285" Right="127" Bottom="306" />
+										<TypeInfo Item0="{77E10790-0AC7-4BB7-BE56-3B4CC42D68B9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;해리 포터&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//div//h3/a[contains(@class, &apos;lnk_tit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main_pack&apos;]//h3/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section//h3/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{10241268-DAE5-4B27-8526-D0136BD89A5C}">
+			<Child Name="BrowserWindow" Owner="{81A1EF17-5518-45E3-9CC7-AE2DE777683B}" />
+			<Child Name="pageNaver" Owner="{3B3623D3-85A5-457A-B473-81542FE16B1C}">
+				<Child Name="formSform" Owner="{D9CB4BD9-7DE8-4C03-A8FF-53BAFD39CB6C}">
+					<Child Name="fieldsetUndefined" Owner="{E3CAE77B-5D17-4E60-B033-78032F4C27AD}">
+						<Child Name="textboxQuery" Owner="{C01F536F-4C9D-4902-9894-2A9FE39C1AF1}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSearch" Owner="{722B8D4F-918F-4124-809F-6B29AE70D3FB}">
+				<Child Name="section" Owner="{4C39BFF3-BA5E-4FD5-B5BD-6499035129E5}">
+					<Child Name="link" Owner="{29A42373-CBDF-44B0-9A91-E2A8C789467C}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
