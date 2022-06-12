@@ -3,5 +3,6 @@
 	<children>
 		<child name="Test1" key="{1E4B50C7-AF0C-4038-AFC8-BE626625D00D}" path="Test1.tcKDTest" />
 		<child name="Test2" key="{EC1629BE-A8A3-4F10-BBCF-0AA637DC9034}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{ECCA79A8-E705-42AE-93C3-6FA1FF775868}" path="Test3.tcKDTest" />
 	</children>
 </Root>
